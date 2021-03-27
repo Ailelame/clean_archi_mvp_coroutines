@@ -1,0 +1,4 @@
+include ':data'
+include ':app:domain'
+include ':app', ':domain', ':data'
+rootProject.name = "clean_archi_mvp_coroutines"
